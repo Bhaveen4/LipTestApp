@@ -2,7 +2,7 @@
 .section{
      background:  white;
      padding: 1rem;
-     border: 1px solid #ff5000;
+     border: 1px solid var(--galOrange);
      border-radius: 1rem;
      background-image: url(../../assets/hero_image.webp);
       background-size: cover;
@@ -14,7 +14,7 @@
 
 
 .topBar {
-  background:  #ff5000;
+  background:  var(--galOrange);
   color: white;
   text-align: center;
   padding: 8px;
@@ -32,7 +32,7 @@
 }
 
 .textBox h1{
- color: #ff5000;
+ color: var(--galOrange);
  font-size: 3rem;
  font-weight: 900;
  margin-bottom: 4px;

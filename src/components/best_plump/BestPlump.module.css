@@ -1,17 +1,17 @@
-.headingContainer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.headingContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .headingContainer h2 {
-     font-size: 2rem;
-    font-weight: 900;
-    color: var(--galOrange);
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--galOrange);
 }
 
 .headingContainer button {
-    background: transparent;
+  background: transparent;
   color: var(--galOrange);
   border: 1px solid var(--galOrange);
   border-radius: 1rem;
@@ -21,9 +21,9 @@
 
 
 .mainGrid {
- display: grid;
-  grid-template-columns: 1fr 3fr; 
- 
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+
 
 }
 
@@ -36,7 +36,7 @@
   max-width: 1200px;
 }
 
-.highlight{
+.highlight {
 
   position: relative;
   width: 70%;
@@ -53,10 +53,10 @@
 
 }
 
-.highlight button{
-    position: absolute;
-    bottom: 20px;
- 
+.highlight button {
+  position: absolute;
+  bottom: 20px;
+
   left: 50%;
   transform: translate(-50%, -50%);
   background: transparent;
@@ -65,11 +65,11 @@
   border-radius: 1rem;
   padding: .7rem 5rem;
   white-space: nowrap;
-  
+
 }
 
 @media (max-width: 768px) {
   .mainGrid {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
   }
 }
