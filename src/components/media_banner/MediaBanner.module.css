@@ -1,0 +1,12 @@
+.media {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.media span {
+    align-self: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}

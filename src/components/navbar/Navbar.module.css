@@ -1,0 +1,105 @@
+.nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.left{
+    border: 1px solid #ff5000 ;
+    border-radius: 1rem;
+list-style: none;
+padding: .5rem 1.5rem .5rem 1.5rem ;
+display: flex;
+gap: 5rem;
+font-weight: 700;
+}
+
+
+
+.right{
+list-style: none;
+padding: 0;
+display: flex;
+gap: 5rem;
+font-weight: 700;
+align-items: center;
+}
+
+.logo img{
+   max-height: 2rem;
+}
+
+.search{
+     border: 1px solid #ff5000 ;
+      border-radius: 1rem;
+      padding: .5rem 1.5rem .5rem 1.5rem ;
+}
+
+.cart{
+
+padding-left: 1rem;
+   border: 1px solid #ff5000 ;
+   border-radius: 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;   
+   
+}
+
+.cartNumber{
+     border: 1px solid #ff5000 ;
+     border-radius: 50%;
+     padding: .6rem;
+     margin-left: 1rem;
+     
+}
+
+
+
+.hamburger{
+   display: none;
+}
+
+.mobileMenu{
+   display: none;
+}
+
+
+/* Hide desktop menus on mobile */
+@media (max-width: 768px) {
+  .left, .right {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .mobileMenu {
+    position: fixed;
+    top: 60px; /* below navbar */
+    left: 0;
+    right: 0;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem 2rem;
+    z-index: 100;
+  }
+
+  .mobileMenu ul {
+   list-style: none;
+  }
+}
+
+.closeBtn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}

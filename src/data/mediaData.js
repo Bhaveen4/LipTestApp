@@ -1,0 +1,1 @@
+export const mediaList = ["FABULOUS" , "CLOSER", "MAIL ONLINE" , "THIS MORNING" ,"COSMOPOLITAN"]

@@ -1,0 +1,43 @@
+.footer {
+  position: relative; 
+  background: var(--galOrange);
+  padding: 8rem 2rem 3rem; 
+  color: white;
+  margin-top: 10rem;
+}
+
+.footerContent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footerContent h4 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.footerContent ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footerContent li {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.footerContent li:hover {
+  text-decoration: underline;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.5rem;
+  justify-content: flex-start;
+}

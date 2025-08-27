@@ -1,0 +1,62 @@
+
+.section{
+     background:  white;
+     padding: 1rem;
+     border: 1px solid #ff5000;
+     border-radius: 1rem;
+     background-image: url(../../assets/hero_image.webp);
+      background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: calc(100vh - 40px - 2rem);
+  position: relative;
+}
+
+
+.topBar {
+  background:  #ff5000;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 1rem;
+}
+
+
+
+.content{
+    position: absolute;
+    bottom: 3rem;
+    padding: 1rem;
+   
+}
+
+.textBox h1{
+ color: #ff5000;
+ font-size: 3rem;
+ font-weight: 900;
+ margin-bottom: 4px;
+}
+
+.textBox p{
+    font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+.btn {
+  background-color: #fff;
+  color: var(--galOrange); 
+  border: 2px solid var(--galOrange);
+  border-radius: 999px; 
+  padding: 10px 24px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+.btn:hover {
+  background-color: var(--galOrange);
+  color: #fff;
+}

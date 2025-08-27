@@ -1,0 +1,75 @@
+.headingContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headingContainer h2 {
+     font-size: 2rem;
+    font-weight: 900;
+    color: var(--galOrange);
+}
+
+.headingContainer button {
+    background: transparent;
+  color: var(--galOrange);
+  border: 1px solid var(--galOrange);
+  border-radius: 1rem;
+  padding: .7rem 5rem;
+}
+
+
+
+.mainGrid {
+ display: grid;
+  grid-template-columns: 1fr 3fr; 
+ 
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+
+.highlight{
+
+  position: relative;
+  width: 70%;
+  height: 26rem;
+  border-radius: 1rem;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  overflow: hidden;
+  cursor: pointer;
+  background-image: url(../../assets/beauty6.jpg);
+
+}
+
+.highlight button{
+    position: absolute;
+    bottom: 20px;
+ 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 1rem;
+  padding: .7rem 5rem;
+  white-space: nowrap;
+  
+}
+
+@media (max-width: 768px) {
+  .mainGrid {
+    grid-template-columns: 1fr; 
+  }
+}

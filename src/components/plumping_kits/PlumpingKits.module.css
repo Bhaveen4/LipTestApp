@@ -1,0 +1,41 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+
+.headingContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headingContainer h2{
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--galOrange);
+}
+
+.btn {
+background-color: transparent;
+  color: var(--galOrange); 
+  border: 2px solid var(--galOrange);
+  border-radius: 0.5rem; 
+  padding: .5rem  .5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  height: fit-content;
+}
+
+
+.btn:hover {
+  background-color: var(--galOrange);
+  color: #fff;
+}
+
+
